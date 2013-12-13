@@ -18,7 +18,7 @@ namespace SimpleBlog.Models
     {
         public TagMap()
         {
-            Table("tag");
+            Table("tags");
 
             Id(x => x.Id, x => x.Generator(Generators.Identity));
 
